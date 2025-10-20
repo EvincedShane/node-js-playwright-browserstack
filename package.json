@@ -13,6 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "latest",
-    "browserstack-node-sdk": "latest"
+    "browserstack-node-sdk": "latest",
+    "@evinced/js-playwright-sdk": "^2.39.0"
   }
 }

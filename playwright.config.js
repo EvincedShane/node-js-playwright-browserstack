@@ -2,6 +2,7 @@
 const config = {
   testDir: './tests',
   testMatch: '**/bstack_test*.js',
+  globalSetup: require.resolve("./global.settings.js"),
 
   /* Maximum time one test can run for. */
   timeout: 90 * 1000,
