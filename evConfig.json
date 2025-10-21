@@ -1,0 +1,17 @@
+{
+  "logging": {
+    "LOGGING_LEVEL": "trace",
+    "ADD_LOGGING_CONTEXT": true
+  },
+  "sdkLogging": {
+    "enable": true,
+    "performance": true,
+    "level": "trace",
+    "browserLoggingEnabled": true,
+    "systemInformationLoggingEnabled": true
+  },
+  "uploadToPlatformOptions": {
+    "enableUploadToPlatform": true,
+    "setUploadToPlatformDefault": true
+  }
+}
