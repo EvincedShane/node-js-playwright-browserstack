@@ -1,3 +1,13 @@
 [2025-10-21T12:14:52.558] [ERROR] default - Failed to parse platform upload options: SyntaxError: "undefined" is not valid JSON
 [2025-10-21T12:19:24.086] [ERROR] default - Failed to parse platform upload options: SyntaxError: "undefined" is not valid JSON
 [2025-10-21T12:22:05.907] [ERROR] default - Failed to parse platform upload options: SyntaxError: "undefined" is not valid JSON
+[2025-10-21T15:08:39.819] [ERROR] default - Failed to parse platform upload options: SyntaxError: "undefined" is not valid JSON
+[2025-10-21T15:12:36.608] [ERROR] default - Failed to parse platform upload options: SyntaxError: "undefined" is not valid JSON
+[2025-10-21T15:14:11.297] [ERROR] default - Failed to run analysis: page.evaluate: Test timeout of 90000ms exceeded.
+    at Page._0x47dd16 (/Users/shane/Documents/node-js-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/mock-process.js:1:17307)
+    at exec (/Users/shane/Documents/node-js-playwright-browserstack/node_modules/@evinced/js-playwright-sdk/dist/ev-playwright-sdk.bundle.js:1:4452245)
+    at /Users/shane/Documents/node-js-playwright-browserstack/node_modules/@evinced/js-playwright-sdk/dist/ev-playwright-sdk.bundle.js:1:4400586
+    at /Users/shane/Documents/node-js-playwright-browserstack/node_modules/@evinced/js-playwright-sdk/dist/ev-playwright-sdk.bundle.js:1:4400464
+    at tt.evAnalyze (/Users/shane/Documents/node-js-playwright-browserstack/node_modules/@evinced/js-playwright-sdk/dist/ev-playwright-sdk.bundle.js:1:4400210)
+    at /Users/shane/Documents/node-js-playwright-browserstack/tests/bstack_local_evAnalyze.js:13:20
+[2025-10-21T15:14:11.297] [ERROR] default - Error during evAnalyze: Error: Failed to run analysis: page.evaluate: Test timeout of 90000ms exceeded.

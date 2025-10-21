@@ -359,3 +359,217 @@ Status code: 200, Status text: OK
       In order to log such long messages -> update logging configuration.
 [2025-10-21T12:22:50.606] [DEBUG] default - Issues: [{"id":"c26eb2e1-55c9-49d2-a91a-55c3e3acdb08","index":"I1","hidden":false,"validation":{"id":"f5f69fba-4e37-430d-a99b-5e99df90b9b0"},"skipIssue":false,"elements":[{"id":"ddb5e17b-c909-4933-ac9b-ac6511eadec1","domSnippet":"<a href=\"/product/3411074?clickSR=slp:term:grey:1:5180:1\" target=\"_self\" class=\"ProductCardstyles__Link-h52kot-14 bHQa-dW\"><div data-test=\"component-product-card-availabilityContainer\" class=\"ProductCardstyles__AvailabilityLabelContainer-h52kot-23 lghxxN\"></div></a>","componentId":"16db86e4","index":"S1","selector":".component-product-card-group:nth-child(1) > .ds-o-container > .ds-o-grid.product-card-grid > .ds-border-solid.ds-border-t-monochrome-light.ds-o-grid-item:nth-child(1) > .shgEg > .bHQa-dW[target=\"_self\"]","pageUrl":"https://www.argos.co.uk/search/grey/?clickOrigin=searchbar:cat:term:grey","pageTitle":"Results for grey","boundingBox":{"x":47.5,"y":988.953125,"height":15,"width":268.5,"top":988.953125,"left":47.5,"right":316,"bottom":1003
 [2025-10-21T12:22:50.606] [DEBUG] default - Screenshot map: {}
+[2025-10-21T15:08:26.985] [INFO] default - Local config switch on: undefined
+[2025-10-21T15:08:26.985] [INFO] default - Using default value for switch on: true
+[2025-10-21T15:08:26.985] [INFO] default - Getting authentication token online
+[2025-10-21T15:08:27.244] [DEBUG] default - Response status: 200
+[2025-10-21T15:08:27.246] [INFO] default - Credentials have been set
+[2025-10-21T15:08:39.813] [WARN] default - Evinced switch is not defined. Default value is used: true
+[2025-10-21T15:08:39.814] [INFO] default - Evinced SDK is switched on: true
+[2025-10-21T15:08:39.815] [INFO] default - System Information
+    - SDK: JS Playwright SDK 2.39.2
+    - Browser: undefined
+    - Node version: v22.12.0
+    - Platform: darwin
+    - Architecture: arm64
+[2025-10-21T15:08:39.815] [DEBUG] default - AuthData initialized. Checking license
+[2025-10-21T15:08:39.816] [DEBUG] default - Token decoded
+[2025-10-21T15:08:39.817] [DEBUG] default - Token signed
+[2025-10-21T15:08:39.817] [DEBUG] default - Product type approved
+[2025-10-21T15:08:39.817] [DEBUG] default - Service account approved
+[2025-10-21T15:08:39.817] [INFO] default - License approved
+[2025-10-21T15:08:39.818] [INFO] default - Building default configuration
+[2025-10-21T15:08:39.818] [DEBUG] default - SDK options from config file: undefined
+[2025-10-21T15:08:39.818] [DEBUG] default - Return axe passed (config file): undefined
+[2025-10-21T15:08:39.818] [DEBUG] default - Include iframes (config file): undefined
+[2025-10-21T15:08:39.818] [DEBUG] default - Include iframes (config file): undefined
+[2025-10-21T15:08:39.818] [DEBUG] default - Include hidden iframe domains (config file): undefined
+[2025-10-21T15:08:39.819] [DEBUG] default - Evinced default configuration: {"platformUploadOptions":{"enableUploadToPlatform":false,"setUploadToPlatformDefault":true,"useGzip":true,"platformURL":"https://ingestion.evinced.com/product/wsdk"},"sdkOptions":{"evAnalyzeNewReturnType":true,"useDefaultScreenshotsCapturing":false},"returnAxePassed":false,"includeIframes":true,"includeHiddenIframeDomains":[],"mockEngine":false}
+[2025-10-21T15:08:39.819] [INFO] default - Updating platform upload options
+[2025-10-21T15:08:39.819] [ERROR] default - Failed to parse platform upload options: SyntaxError: "undefined" is not valid JSON
+[2025-10-21T15:08:39.819] [DEBUG] default - Overriding cached config with local configuration: {"enableUploadToPlatform":true,"setUploadToPlatformDefault":true,"enableScreenshots":true}
+[2025-10-21T15:08:39.819] [DEBUG] default - Platform upload options updated: {"enableUploadToPlatform":true,"setUploadToPlatformDefault":true,"useGzip":true,"platformURL":"https://ingestion.evinced.com/product/wsdk","enableScreenshots":true}
+[2025-10-21T15:08:39.819] [INFO] default - Evinced state is reset for page
+[2025-10-21T15:08:39.819] [DEBUG] default - Evinced current state is reset: {"isContinuousModeOn":false,"shouldProcessNavigationEvents":false}
+[2025-10-21T15:08:43.450] [INFO] default - evAnalyze called
+[2025-10-21T15:08:43.450] [INFO] default - Updating platform upload options
+[2025-10-21T15:08:43.450] [DEBUG] default - Platform upload options updated: {"enableUploadToPlatform":true,"setUploadToPlatformDefault":true,"useGzip":true,"platformURL":"https://ingestion.evinced.com/product/wsdk","enableScreenshots":true}
+[2025-10-21T15:08:43.451] [DEBUG] default - Internal shared data: {"screenshotsMap":{},"testRunInfo":{"runInfo":{"testId":"49bef84f-ef2c-4c3c-831a-a18d3483e54c","testName":"value not specified","runTime":1761055719804,"productVersion":"2.39.2","enginesVersion":"15.16.10"}}}
+[2025-10-21T15:08:43.451] [DEBUG] default - Adding console listener for browser logging
+[2025-10-21T15:08:43.477] [INFO] default - Starting static analysis
+[2025-10-21T15:08:43.477] [INFO] default - Injecting Evinced into page
+[2025-10-21T15:08:43.815] [INFO] default - Evinced is already injected: false
+[2025-10-21T15:08:43.815] [INFO] default - Injecting Evinced into 2 frames
+[2025-10-21T15:08:43.816] [DEBUG] default - Include iframes (config file): undefined
+[2025-10-21T15:08:43.816] [DEBUG] default - Include hidden iframe domains (config file): undefined
+[2025-10-21T15:08:43.845] [INFO] default - Injecting Evinced into https://www.argos.co.uk/search/grey/?clickOrigin=searchbar:cat:term:grey
+[2025-10-21T15:08:47.107] [DEBUG] default - Browser console: Failed to load resource: the server responded with a status of 404 ()
+[2025-10-21T15:08:53.867] [WARN] default - Function execution timed out after 10000ms, proceeding...
+[2025-10-21T15:08:53.868] [WARN] default - Injection into https://www.argos.co.uk/search/grey/?clickOrigin=searchbar:cat:term:grey timed out after 10000ms, skipping this frame
+[2025-10-21T15:08:54.020] [DEBUG] default - 💥 CSS check failed: , Error: frame.frameElement: Frame has been detached.
+[2025-10-21T15:08:54.020] [DEBUG] default - Skipping hidden frame: 
+[2025-10-21T15:08:54.020] [INFO] default - Evinced injection process finished
+[2025-10-21T15:08:54.021] [INFO] default - Preparing configuration for engine initialisation
+[2025-10-21T15:08:54.022] [DEBUG] default - Local "evConfig.json" parsed: {"logging":{"LOGGING_LEVEL":"trace","ADD_LOGGING_CONTEXT":true},"sdkLogging":{"enable":true,"performance":true,"level":"trace","browserLoggingEnabled":true,"systemInformationLoggingEnabled":true},"uploadToPlatformOptions":{"enableUploadToPlatform":true,"setUploadToPlatformDefault":true,"enableScreenshots":true}}
+[2025-10-21T15:08:54.022] [DEBUG] default - Merging 4 objects
+[2025-10-21T15:08:54.023] [TRACE] default - The message is too long (1297), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:08:54.023] [TRACE] default - Merged object: {"rootSelector":"","enableScreenshots":false,"returnAxePassed":false,"includeIframes":true,"toggles":{"ENABLE_SENDING_ENGINE_MATRICES":true,"USE_BROKEN_SKIP_LINK_VALIDATOR":false,"USE_SCREEN_READING_ORDER_VALIDATOR":false,"USE_TAB_ORDER_VALIDATOR":false,"USE_AXE_NEEDS_REVIEW":false,"USE_AXE_BEST_PRACTICES":false,"SAVE_FULL_HTML":false,"USE_FOCUS_INDICATION":false,"USE_TEXT_ON_IMAGE":false,"ENABLE_PENDO_ANALYTICS":false,"USE_LANGUAGE_ATTRIBUTE_MISMATCH_VALIDATOR":false,"ENABLE_SCREENSHOTS":false,"RUN_VALIDATION_ON_IFRAMES":true,"ALLOW_SCREENSHOTS_WHEN_IFRAMES_TOGGLE_IS_ON":true,"SUPPORT_SHADOW_DOM":true,"ENABLE_SCAN_INSIGHTS":false},"recordingService":{"ENABLE_DEBOUNCE_NEW_SELECTORS":false,"DEBOUNCE_NEW_SELECTORS_MS":200,"DELAY_MODE":"debounce"},"analytics":{"obfuscate_urls":false,"analytics_url":"https://ingestion.evinced.com/analytics","disable_scan_initiated_event":false},"issuesContentPerType":null,"axeIssuesContentPerType":null,"logging":{"LOGGING_LEVEL":"trace","ADD
+[2025-10-21T15:08:54.023] [DEBUG] default - The message is too long (1304), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:08:54.023] [DEBUG] default - Merged configuration: {"rootSelector":"","enableScreenshots":false,"returnAxePassed":false,"includeIframes":true,"toggles":{"ENABLE_SENDING_ENGINE_MATRICES":true,"USE_BROKEN_SKIP_LINK_VALIDATOR":false,"USE_SCREEN_READING_ORDER_VALIDATOR":false,"USE_TAB_ORDER_VALIDATOR":false,"USE_AXE_NEEDS_REVIEW":false,"USE_AXE_BEST_PRACTICES":false,"SAVE_FULL_HTML":false,"USE_FOCUS_INDICATION":false,"USE_TEXT_ON_IMAGE":false,"ENABLE_PENDO_ANALYTICS":false,"USE_LANGUAGE_ATTRIBUTE_MISMATCH_VALIDATOR":false,"ENABLE_SCREENSHOTS":false,"RUN_VALIDATION_ON_IFRAMES":true,"ALLOW_SCREENSHOTS_WHEN_IFRAMES_TOGGLE_IS_ON":true,"SUPPORT_SHADOW_DOM":true,"ENABLE_SCAN_INSIGHTS":false},"recordingService":{"ENABLE_DEBOUNCE_NEW_SELECTORS":false,"DEBOUNCE_NEW_SELECTORS_MS":200,"DELAY_MODE":"debounce"},"analytics":{"obfuscate_urls":false,"analytics_url":"https://ingestion.evinced.com/analytics","disable_scan_initiated_event":false},"issuesContentPerType":null,"axeIssuesContentPerType":null,"logging":{"LOGGING_LEVEL":"trac
+[2025-10-21T15:08:54.023] [DEBUG] default - The message is too long (1015), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:08:54.023] [DEBUG] default - Configuration. Session info: {"userId":"js-playwright-sdk-user","serverConfig":{"TOGGLES":{"ENABLE_SENDING_ENGINE_MATRICES":true,"USE_BROKEN_SKIP_LINK_VALIDATOR":false,"USE_SCREEN_READING_ORDER_VALIDATOR":false,"USE_TAB_ORDER_VALIDATOR":false,"USE_AXE_NEEDS_REVIEW":false,"USE_AXE_BEST_PRACTICES":false,"SAVE_FULL_HTML":false,"USE_FOCUS_INDICATION":false,"USE_TEXT_ON_IMAGE":false,"ENABLE_PENDO_ANALYTICS":false,"USE_LANGUAGE_ATTRIBUTE_MISMATCH_VALIDATOR":false,"ENABLE_SCREENSHOTS":false,"RUN_VALIDATION_ON_IFRAMES":true,"ALLOW_SCREENSHOTS_WHEN_IFRAMES_TOGGLE_IS_ON":true,"SUPPORT_SHADOW_DOM":true,"ENABLE_SCAN_INSIGHTS":false,"ENGINE_ENABLE_AXE_PASSES_OUTPUT":false},"showDuplicateIssues":true,"RECORDING_SERVICE":{"ENABLE_DEBOUNCE_NEW_SELECTORS":false,"DEBOUNCE_NEW_SELECTORS_MS":200,"DELAY_MODE":"debounce"},"LOGGING":{"LOGGING_LEVEL":"trace","ADD_LOGGING_CONTEXT":true},"ANALYTICS_CONFIG":{"obfuscate_urls":false,"analytics_url":"https://ingestion.evinced.com/analytics","disable_scan_initiated_
+[2025-10-21T15:08:54.023] [INFO] default - Getting license data for engine initialisation
+[2025-10-21T15:08:54.025] [DEBUG] default - Configuration. Analysis config: {"analysisId":"bb0bb737-8f94-48c9-acd6-69c4fd3aad9b","rootSelector":"","licenseData":{"accessToken":"********","tenantId":"18accef9-6075-4ec0-bd6e-14ec182b7fcc"}}
+[2025-10-21T15:08:54.025] [DEBUG] default - Configuration. Analysis persisted data: undefined
+[2025-10-21T15:08:54.025] [DEBUG] default - Configuration. Updates callback: undefined
+[2025-10-21T15:08:54.025] [DEBUG] default - Configuration. Running context: {"hostingProduct":"PLAYWRIGHT-JS-SDK","productName":"WEB_SDK","sdkType":"PLAYWRIGHT_JS_SDK","hostingProductVersion":"2.39.2"}
+[2025-10-21T15:08:54.025] [DEBUG] default - Calling "Init analysis client core" command
+[2025-10-21T15:08:54.025] [DEBUG] default - Adding callback handler to the page
+[2025-10-21T15:08:55.107] [DEBUG] default - Callback handler added to the page
+[2025-10-21T15:08:55.107] [TRACE] default - The message is too long (1324), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:08:55.107] [TRACE] default - Executing command: 'init' with args: [{"userId":"js-playwright-sdk-user","serverConfig":{"TOGGLES":{"ENABLE_SENDING_ENGINE_MATRICES":true,"USE_BROKEN_SKIP_LINK_VALIDATOR":false,"USE_SCREEN_READING_ORDER_VALIDATOR":false,"USE_TAB_ORDER_VALIDATOR":false,"USE_AXE_NEEDS_REVIEW":false,"USE_AXE_BEST_PRACTICES":false,"SAVE_FULL_HTML":false,"USE_FOCUS_INDICATION":false,"USE_TEXT_ON_IMAGE":false,"ENABLE_PENDO_ANALYTICS":false,"USE_LANGUAGE_ATTRIBUTE_MISMATCH_VALIDATOR":false,"ENABLE_SCREENSHOTS":false,"RUN_VALIDATION_ON_IFRAMES":true,"ALLOW_SCREENSHOTS_WHEN_IFRAMES_TOGGLE_IS_ON":true,"SUPPORT_SHADOW_DOM":true,"ENABLE_SCAN_INSIGHTS":false,"ENGINE_ENABLE_AXE_PASSES_OUTPUT":false},"showDuplicateIssues":true,"RECORDING_SERVICE":{"ENABLE_DEBOUNCE_NEW_SELECTORS":false,"DEBOUNCE_NEW_SELECTORS_MS":200,"DELAY_MODE":"debounce"},"LOGGING":{"LOGGING_LEVEL":"trace","ADD_LOGGING_CONTEXT":true},"ANALYTICS_CONFIG":{"obfuscate_urls":false,"analytics_url":"https://ingestion.evinced.com/analytics","disable_scan_i
+[2025-10-21T15:08:55.413] [DEBUG] default - Calling "Run analysis once" command
+[2025-10-21T15:08:55.413] [TRACE] default - Executing command: 'runAnalysisOnce' with args: []
+[2025-10-21T15:09:32.782] [INFO] default - Preparing for data uploading.
+[2025-10-21T15:09:32.785] [TRACE] default - The message is too long (1250975), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:09:32.785] [TRACE] default - Prepared data for upload: {"runs":[{"testId":"49bef84f-ef2c-4c3c-831a-a18d3483e54c","testName":"value not specified","runTime":1761055719804,"productVersion":"2.39.2","enginesVersion":"15.16.10","pages":[{"url":"https://www.argos.co.uk/search/grey/?clickOrigin=searchbar:cat:term:grey","issues":[{"id":"1d0bf7f5-604d-47b9-bf7f-d6c99a5e6146","index":"I1","hidden":false,"validation":{"id":"991ba685-ae7c-4a2b-8561-4d0ae20e2ac9"},"skipIssue":false,"elements":[{"id":"7717aa06-abca-42e7-af4b-a9a4b85a8e6b","domSnippet":"<a href=\"/product/3411074?clickSR=slp:term:grey:1:5174:1\" target=\"_self\" class=\"ProductCardstyles__Link-h52kot-14 bHQa-dW\"><div data-test=\"component-product-card-availabilityContainer\" class=\"ProductCardstyles__AvailabilityLabelContainer-h52kot-23 lghxxN\"></div></a>","componentId":"16db86e4","index":"S1","selector":".component-product-card-group:nth-child(1) > .ds-o-container > .ds-o-grid.product-card-grid > .ds-border-solid.ds-border-t-monochrome-light.ds-o-grid-item:
+[2025-10-21T15:09:32.785] [DEBUG] default - Token for uploading has been read from '.env.authData'.
+    Token is defined: true
+    URL: https://ingestion.evinced.com/product/wsdk
+[2025-10-21T15:09:32.831] [DEBUG] default - The message is too long (203609), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:09:32.831] [DEBUG] default - Sending POST request with parameters: {"url":"https://ingestion.evinced.com/product/wsdk","headers":{"Content-Type":"application/json","Authorization":"Bearer eyJraWQiOiJaekVGeWw0Rmh5Z2dvc3VWOExGQyIsImFsZyI6IlJTMjU2In0.eyJzZXJ2aWNlQWNjb3VudElkIjoiYTUxYTI3YjEtZDIzZi05NmVhLTVkMTItMDEzNWUyNzAwNTkxIiwidGVuYW50TmFtZSI6IkV2aW5jZWQgRGVtbyBBY2NvdW50IiwidGVuYW50SWQiOiIxOGFjY2VmOS02MDc1LTRlYzAtYmQ2ZS0xNGVjMTgyYjdmY2MiLCJhdWQiOiJodHRwczovL2FwcC5ldmluY2VkLmNvbS9hcGkiLCJleHAiOjE3NjQwODYyNzcsInN1YiI6IldFQl9TREsifQ.Y0Zh1YtBajw5olAcsbdKayZbKIJrCliQRpgr5d5fwKNVzrDWUUW0tCPe5JTntkyzMgeuooX3nUW-JbABKer0DX5tAv49b1hIXVR2LiaDED8_GGNuMo44oz_Dsc_2UQdBzxfemLJcbESk7m04iUBfuHGNItAFs-8Us7zuuxde8LypCCh7nQQHuwgoR9HYXGTV3zF6gb6qIJiGjjgEupQlDp5iT2chhywx5YryqXu2IvfpiuXy6KgzTbFJVACMrYQ7xuOL29jn0WOIb_EjAibwrMom6Y2b_rxtBRhuEx2hJ3C5bAz6eHkY04e_Gx6zPO016vcWt32BWVvNQa5oKPKJcA","Content-Encoding":"gzip"},"data":{"type":"Buffer","data":[31,139,8,0,0,0,0,0,0,19,236,189,111,115,27,71,146,238,251,85,16,120,179,187,14,37,93,85,153
+[2025-10-21T15:09:33.456] [DEBUG] default - Response status code: 200
+[2025-10-21T15:09:33.457] [INFO] default - Issues are uploaded to the platform.
+Status code: 200, Status text: OK
+[2025-10-21T15:09:33.457] [INFO] default - Static analysis finished successfully
+[2025-10-21T15:09:33.465] [DEBUG] default - Local "evConfig.json" parsed: {"logging":{"LOGGING_LEVEL":"trace","ADD_LOGGING_CONTEXT":true},"sdkLogging":{"enable":true,"performance":true,"level":"trace","browserLoggingEnabled":true,"systemInformationLoggingEnabled":true},"uploadToPlatformOptions":{"enableUploadToPlatform":true,"setUploadToPlatformDefault":true,"enableScreenshots":true}}
+[2025-10-21T15:09:33.465] [DEBUG] default - Merging 4 objects
+[2025-10-21T15:09:33.465] [TRACE] default - The message is too long (1273), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:09:33.465] [TRACE] default - Merged object: {"rootSelector":"","enableScreenshots":false,"returnAxePassed":false,"includeIframes":true,"toggles":{"ENABLE_SENDING_ENGINE_MATRICES":true,"USE_BROKEN_SKIP_LINK_VALIDATOR":false,"USE_SCREEN_READING_ORDER_VALIDATOR":false,"USE_TAB_ORDER_VALIDATOR":false,"USE_AXE_NEEDS_REVIEW":false,"USE_AXE_BEST_PRACTICES":false,"SAVE_FULL_HTML":false,"USE_FOCUS_INDICATION":false,"USE_TEXT_ON_IMAGE":false,"ENABLE_PENDO_ANALYTICS":false,"USE_LANGUAGE_ATTRIBUTE_MISMATCH_VALIDATOR":false,"ENABLE_SCREENSHOTS":false,"RUN_VALIDATION_ON_IFRAMES":true,"ALLOW_SCREENSHOTS_WHEN_IFRAMES_TOGGLE_IS_ON":true,"SUPPORT_SHADOW_DOM":true,"ENABLE_SCAN_INSIGHTS":false},"recordingService":{"ENABLE_DEBOUNCE_NEW_SELECTORS":false,"DEBOUNCE_NEW_SELECTORS_MS":200,"DELAY_MODE":"debounce"},"analytics":{"obfuscate_urls":false,"analytics_url":"https://ingestion.evinced.com/analytics","disable_scan_initiated_event":false},"issuesContentPerType":null,"axeIssuesContentPerType":null,"logging":{"LOGGING_LEVEL":"trace","ADD
+[2025-10-21T15:09:33.465] [DEBUG] default - The message is too long (1280), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:09:33.465] [DEBUG] default - Merged configuration: {"rootSelector":"","enableScreenshots":false,"returnAxePassed":false,"includeIframes":true,"toggles":{"ENABLE_SENDING_ENGINE_MATRICES":true,"USE_BROKEN_SKIP_LINK_VALIDATOR":false,"USE_SCREEN_READING_ORDER_VALIDATOR":false,"USE_TAB_ORDER_VALIDATOR":false,"USE_AXE_NEEDS_REVIEW":false,"USE_AXE_BEST_PRACTICES":false,"SAVE_FULL_HTML":false,"USE_FOCUS_INDICATION":false,"USE_TEXT_ON_IMAGE":false,"ENABLE_PENDO_ANALYTICS":false,"USE_LANGUAGE_ATTRIBUTE_MISMATCH_VALIDATOR":false,"ENABLE_SCREENSHOTS":false,"RUN_VALIDATION_ON_IFRAMES":true,"ALLOW_SCREENSHOTS_WHEN_IFRAMES_TOGGLE_IS_ON":true,"SUPPORT_SHADOW_DOM":true,"ENABLE_SCAN_INSIGHTS":false},"recordingService":{"ENABLE_DEBOUNCE_NEW_SELECTORS":false,"DEBOUNCE_NEW_SELECTORS_MS":200,"DELAY_MODE":"debounce"},"analytics":{"obfuscate_urls":false,"analytics_url":"https://ingestion.evinced.com/analytics","disable_scan_initiated_event":false},"issuesContentPerType":null,"axeIssuesContentPerType":null,"logging":{"LOGGING_LEVEL":"trac
+[2025-10-21T15:09:33.465] [INFO] default - evSaveFile called with format: html
+[2025-10-21T15:09:33.465] [INFO] default - Saving report to ./test-results/evAnalyze.html with format html
+[2025-10-21T15:09:33.469] [DEBUG] default - The message is too long (1250620), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:09:33.469] [DEBUG] default - Issues: [{"id":"1d0bf7f5-604d-47b9-bf7f-d6c99a5e6146","index":"I1","hidden":false,"validation":{"id":"991ba685-ae7c-4a2b-8561-4d0ae20e2ac9"},"skipIssue":false,"elements":[{"id":"7717aa06-abca-42e7-af4b-a9a4b85a8e6b","domSnippet":"<a href=\"/product/3411074?clickSR=slp:term:grey:1:5174:1\" target=\"_self\" class=\"ProductCardstyles__Link-h52kot-14 bHQa-dW\"><div data-test=\"component-product-card-availabilityContainer\" class=\"ProductCardstyles__AvailabilityLabelContainer-h52kot-23 lghxxN\"></div></a>","componentId":"16db86e4","index":"S1","selector":".component-product-card-group:nth-child(1) > .ds-o-container > .ds-o-grid.product-card-grid > .ds-border-solid.ds-border-t-monochrome-light.ds-o-grid-item:nth-child(1) > .shgEg > .bHQa-dW[target=\"_self\"]","pageUrl":"https://www.argos.co.uk/search/grey/?clickOrigin=searchbar:cat:term:grey","pageTitle":"Results for grey","boundingBox":{"x":47.5,"y":988.953125,"height":15,"width":268.5,"top":988.953125,"left":47.5,"right":316,"bottom":1003
+[2025-10-21T15:09:33.469] [DEBUG] default - Screenshot map: {}
+[2025-10-21T15:09:33.469] [DEBUG] default - Axe passes issues: undefined
+[2025-10-21T15:09:33.469] [INFO] default - Saving report to ./test-results/evAnalyze.html with format html
+[2025-10-21T15:09:33.472] [DEBUG] default - The message is too long (1250620), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:09:33.472] [DEBUG] default - Issues: [{"id":"1d0bf7f5-604d-47b9-bf7f-d6c99a5e6146","index":"I1","hidden":false,"validation":{"id":"991ba685-ae7c-4a2b-8561-4d0ae20e2ac9"},"skipIssue":false,"elements":[{"id":"7717aa06-abca-42e7-af4b-a9a4b85a8e6b","domSnippet":"<a href=\"/product/3411074?clickSR=slp:term:grey:1:5174:1\" target=\"_self\" class=\"ProductCardstyles__Link-h52kot-14 bHQa-dW\"><div data-test=\"component-product-card-availabilityContainer\" class=\"ProductCardstyles__AvailabilityLabelContainer-h52kot-23 lghxxN\"></div></a>","componentId":"16db86e4","index":"S1","selector":".component-product-card-group:nth-child(1) > .ds-o-container > .ds-o-grid.product-card-grid > .ds-border-solid.ds-border-t-monochrome-light.ds-o-grid-item:nth-child(1) > .shgEg > .bHQa-dW[target=\"_self\"]","pageUrl":"https://www.argos.co.uk/search/grey/?clickOrigin=searchbar:cat:term:grey","pageTitle":"Results for grey","boundingBox":{"x":47.5,"y":988.953125,"height":15,"width":268.5,"top":988.953125,"left":47.5,"right":316,"bottom":1003
+[2025-10-21T15:09:33.472] [DEBUG] default - Screenshot map: {}
+[2025-10-21T15:09:33.484] [DEBUG] default - Local "evConfig.json" parsed: {"logging":{"LOGGING_LEVEL":"trace","ADD_LOGGING_CONTEXT":true},"sdkLogging":{"enable":true,"performance":true,"level":"trace","browserLoggingEnabled":true,"systemInformationLoggingEnabled":true},"uploadToPlatformOptions":{"enableUploadToPlatform":true,"setUploadToPlatformDefault":true,"enableScreenshots":true}}
+[2025-10-21T15:09:33.484] [DEBUG] default - Merging 4 objects
+[2025-10-21T15:09:33.484] [TRACE] default - The message is too long (1273), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:09:33.484] [TRACE] default - Merged object: {"rootSelector":"","enableScreenshots":false,"returnAxePassed":false,"includeIframes":true,"toggles":{"ENABLE_SENDING_ENGINE_MATRICES":true,"USE_BROKEN_SKIP_LINK_VALIDATOR":false,"USE_SCREEN_READING_ORDER_VALIDATOR":false,"USE_TAB_ORDER_VALIDATOR":false,"USE_AXE_NEEDS_REVIEW":false,"USE_AXE_BEST_PRACTICES":false,"SAVE_FULL_HTML":false,"USE_FOCUS_INDICATION":false,"USE_TEXT_ON_IMAGE":false,"ENABLE_PENDO_ANALYTICS":false,"USE_LANGUAGE_ATTRIBUTE_MISMATCH_VALIDATOR":false,"ENABLE_SCREENSHOTS":false,"RUN_VALIDATION_ON_IFRAMES":true,"ALLOW_SCREENSHOTS_WHEN_IFRAMES_TOGGLE_IS_ON":true,"SUPPORT_SHADOW_DOM":true,"ENABLE_SCAN_INSIGHTS":false},"recordingService":{"ENABLE_DEBOUNCE_NEW_SELECTORS":false,"DEBOUNCE_NEW_SELECTORS_MS":200,"DELAY_MODE":"debounce"},"analytics":{"obfuscate_urls":false,"analytics_url":"https://ingestion.evinced.com/analytics","disable_scan_initiated_event":false},"issuesContentPerType":null,"axeIssuesContentPerType":null,"logging":{"LOGGING_LEVEL":"trace","ADD
+[2025-10-21T15:09:33.484] [DEBUG] default - The message is too long (1280), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:09:33.484] [DEBUG] default - Merged configuration: {"rootSelector":"","enableScreenshots":false,"returnAxePassed":false,"includeIframes":true,"toggles":{"ENABLE_SENDING_ENGINE_MATRICES":true,"USE_BROKEN_SKIP_LINK_VALIDATOR":false,"USE_SCREEN_READING_ORDER_VALIDATOR":false,"USE_TAB_ORDER_VALIDATOR":false,"USE_AXE_NEEDS_REVIEW":false,"USE_AXE_BEST_PRACTICES":false,"SAVE_FULL_HTML":false,"USE_FOCUS_INDICATION":false,"USE_TEXT_ON_IMAGE":false,"ENABLE_PENDO_ANALYTICS":false,"USE_LANGUAGE_ATTRIBUTE_MISMATCH_VALIDATOR":false,"ENABLE_SCREENSHOTS":false,"RUN_VALIDATION_ON_IFRAMES":true,"ALLOW_SCREENSHOTS_WHEN_IFRAMES_TOGGLE_IS_ON":true,"SUPPORT_SHADOW_DOM":true,"ENABLE_SCAN_INSIGHTS":false},"recordingService":{"ENABLE_DEBOUNCE_NEW_SELECTORS":false,"DEBOUNCE_NEW_SELECTORS_MS":200,"DELAY_MODE":"debounce"},"analytics":{"obfuscate_urls":false,"analytics_url":"https://ingestion.evinced.com/analytics","disable_scan_initiated_event":false},"issuesContentPerType":null,"axeIssuesContentPerType":null,"logging":{"LOGGING_LEVEL":"trac
+[2025-10-21T15:09:33.484] [INFO] default - evSaveFile called with format: json
+[2025-10-21T15:09:33.484] [INFO] default - Saving report to ./test-results/evAnalyze.json with format json
+[2025-10-21T15:09:33.487] [DEBUG] default - The message is too long (1250620), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:09:33.487] [DEBUG] default - Issues: [{"id":"1d0bf7f5-604d-47b9-bf7f-d6c99a5e6146","index":"I1","hidden":false,"validation":{"id":"991ba685-ae7c-4a2b-8561-4d0ae20e2ac9"},"skipIssue":false,"elements":[{"id":"7717aa06-abca-42e7-af4b-a9a4b85a8e6b","domSnippet":"<a href=\"/product/3411074?clickSR=slp:term:grey:1:5174:1\" target=\"_self\" class=\"ProductCardstyles__Link-h52kot-14 bHQa-dW\"><div data-test=\"component-product-card-availabilityContainer\" class=\"ProductCardstyles__AvailabilityLabelContainer-h52kot-23 lghxxN\"></div></a>","componentId":"16db86e4","index":"S1","selector":".component-product-card-group:nth-child(1) > .ds-o-container > .ds-o-grid.product-card-grid > .ds-border-solid.ds-border-t-monochrome-light.ds-o-grid-item:nth-child(1) > .shgEg > .bHQa-dW[target=\"_self\"]","pageUrl":"https://www.argos.co.uk/search/grey/?clickOrigin=searchbar:cat:term:grey","pageTitle":"Results for grey","boundingBox":{"x":47.5,"y":988.953125,"height":15,"width":268.5,"top":988.953125,"left":47.5,"right":316,"bottom":1003
+[2025-10-21T15:09:33.487] [DEBUG] default - Screenshot map: {}
+[2025-10-21T15:09:33.487] [DEBUG] default - Axe passes issues: undefined
+[2025-10-21T15:09:33.487] [INFO] default - Saving report to ./test-results/evAnalyze.json with format json
+[2025-10-21T15:09:33.490] [DEBUG] default - The message is too long (1250620), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:09:33.490] [DEBUG] default - Issues: [{"id":"1d0bf7f5-604d-47b9-bf7f-d6c99a5e6146","index":"I1","hidden":false,"validation":{"id":"991ba685-ae7c-4a2b-8561-4d0ae20e2ac9"},"skipIssue":false,"elements":[{"id":"7717aa06-abca-42e7-af4b-a9a4b85a8e6b","domSnippet":"<a href=\"/product/3411074?clickSR=slp:term:grey:1:5174:1\" target=\"_self\" class=\"ProductCardstyles__Link-h52kot-14 bHQa-dW\"><div data-test=\"component-product-card-availabilityContainer\" class=\"ProductCardstyles__AvailabilityLabelContainer-h52kot-23 lghxxN\"></div></a>","componentId":"16db86e4","index":"S1","selector":".component-product-card-group:nth-child(1) > .ds-o-container > .ds-o-grid.product-card-grid > .ds-border-solid.ds-border-t-monochrome-light.ds-o-grid-item:nth-child(1) > .shgEg > .bHQa-dW[target=\"_self\"]","pageUrl":"https://www.argos.co.uk/search/grey/?clickOrigin=searchbar:cat:term:grey","pageTitle":"Results for grey","boundingBox":{"x":47.5,"y":988.953125,"height":15,"width":268.5,"top":988.953125,"left":47.5,"right":316,"bottom":1003
+[2025-10-21T15:09:33.490] [DEBUG] default - Screenshot map: {}
+[2025-10-21T15:12:26.549] [INFO] default - Local config switch on: undefined
+[2025-10-21T15:12:26.550] [INFO] default - Using default value for switch on: true
+[2025-10-21T15:12:26.550] [INFO] default - Getting authentication token online
+[2025-10-21T15:12:26.760] [DEBUG] default - Response status: 200
+[2025-10-21T15:12:26.761] [INFO] default - Credentials have been set
+[2025-10-21T15:12:36.602] [WARN] default - Evinced switch is not defined. Default value is used: true
+[2025-10-21T15:12:36.603] [INFO] default - Evinced SDK is switched on: true
+[2025-10-21T15:12:36.603] [INFO] default - System Information
+    - SDK: JS Playwright SDK 2.39.2
+    - Browser: undefined
+    - Node version: v22.12.0
+    - Platform: darwin
+    - Architecture: arm64
+[2025-10-21T15:12:36.603] [DEBUG] default - AuthData initialized. Checking license
+[2025-10-21T15:12:36.604] [DEBUG] default - Token decoded
+[2025-10-21T15:12:36.605] [DEBUG] default - Token signed
+[2025-10-21T15:12:36.605] [DEBUG] default - Product type approved
+[2025-10-21T15:12:36.605] [DEBUG] default - Service account approved
+[2025-10-21T15:12:36.606] [INFO] default - License approved
+[2025-10-21T15:12:36.606] [INFO] default - Building default configuration
+[2025-10-21T15:12:36.606] [DEBUG] default - SDK options from config file: undefined
+[2025-10-21T15:12:36.606] [DEBUG] default - Return axe passed (config file): undefined
+[2025-10-21T15:12:36.607] [DEBUG] default - Include iframes (config file): undefined
+[2025-10-21T15:12:36.607] [DEBUG] default - Include iframes (config file): undefined
+[2025-10-21T15:12:36.607] [DEBUG] default - Include hidden iframe domains (config file): undefined
+[2025-10-21T15:12:36.608] [DEBUG] default - Evinced default configuration: {"platformUploadOptions":{"enableUploadToPlatform":false,"setUploadToPlatformDefault":true,"useGzip":true,"platformURL":"https://ingestion.evinced.com/product/wsdk"},"sdkOptions":{"evAnalyzeNewReturnType":true,"useDefaultScreenshotsCapturing":false},"returnAxePassed":false,"includeIframes":true,"includeHiddenIframeDomains":[],"mockEngine":false}
+[2025-10-21T15:12:36.608] [INFO] default - Updating platform upload options
+[2025-10-21T15:12:36.608] [ERROR] default - Failed to parse platform upload options: SyntaxError: "undefined" is not valid JSON
+[2025-10-21T15:12:36.608] [DEBUG] default - Overriding cached config with local configuration: {"enableUploadToPlatform":true,"setUploadToPlatformDefault":true,"enableScreenshots":true}
+[2025-10-21T15:12:36.608] [DEBUG] default - Platform upload options updated: {"enableUploadToPlatform":true,"setUploadToPlatformDefault":true,"useGzip":true,"platformURL":"https://ingestion.evinced.com/product/wsdk","enableScreenshots":true}
+[2025-10-21T15:12:36.609] [INFO] default - Evinced state is reset for page
+[2025-10-21T15:12:36.609] [DEBUG] default - Evinced current state is reset: {"isContinuousModeOn":false,"shouldProcessNavigationEvents":false}
+[2025-10-21T15:12:40.642] [INFO] default - evAnalyze called
+[2025-10-21T15:12:40.643] [INFO] default - Updating platform upload options
+[2025-10-21T15:12:40.643] [DEBUG] default - Platform upload options updated: {"enableUploadToPlatform":true,"setUploadToPlatformDefault":true,"useGzip":true,"platformURL":"https://ingestion.evinced.com/product/wsdk","enableScreenshots":true}
+[2025-10-21T15:12:40.643] [DEBUG] default - Internal shared data: {"screenshotsMap":{},"testRunInfo":{"runInfo":{"testId":"eb6ec690-4b82-406b-84ff-1f83dc92d9a1","testName":"value not specified","runTime":1761055956593,"productVersion":"2.39.2","enginesVersion":"15.16.10"}}}
+[2025-10-21T15:12:40.643] [DEBUG] default - Adding console listener for browser logging
+[2025-10-21T15:12:40.667] [INFO] default - Starting static analysis
+[2025-10-21T15:12:40.669] [INFO] default - Injecting Evinced into page
+[2025-10-21T15:12:41.039] [INFO] default - Evinced is already injected: false
+[2025-10-21T15:12:41.039] [INFO] default - Injecting Evinced into 2 frames
+[2025-10-21T15:12:41.040] [DEBUG] default - Include iframes (config file): undefined
+[2025-10-21T15:12:41.040] [DEBUG] default - Include hidden iframe domains (config file): undefined
+[2025-10-21T15:12:41.070] [INFO] default - Injecting Evinced into https://www.argos.co.uk/search/grey/?clickOrigin=searchbar:cat:term:grey
+[2025-10-21T15:12:42.264] [DEBUG] default - Browser console: Failed to load resource: the server responded with a status of 404 ()
+[2025-10-21T15:12:50.958] [INFO] default - Successfully injected Evinced into https://www.argos.co.uk/search/grey/?clickOrigin=searchbar:cat:term:grey
+[2025-10-21T15:12:51.230] [INFO] default - [IframeVisibility] Checking iframe visibility.
+[2025-10-21T15:12:51.792] [DEBUG] default - [IframeVisibility] iframe visibility URL: /trevor/chat.
+[2025-10-21T15:12:51.970] [DEBUG] default - [IframeVisibility] Iframe status visibility: ❌.
+[2025-10-21T15:12:51.971] [DEBUG] default - Skipping hidden frame: 
+[2025-10-21T15:12:51.971] [INFO] default - Evinced injection process finished
+[2025-10-21T15:12:51.972] [INFO] default - Preparing configuration for engine initialisation
+[2025-10-21T15:12:51.972] [DEBUG] default - Local "evConfig.json" parsed: {"logging":{"LOGGING_LEVEL":"trace","ADD_LOGGING_CONTEXT":true},"sdkLogging":{"enable":true,"performance":true,"level":"trace","browserLoggingEnabled":true,"systemInformationLoggingEnabled":true},"uploadToPlatformOptions":{"enableUploadToPlatform":true,"setUploadToPlatformDefault":true,"enableScreenshots":true}}
+[2025-10-21T15:12:51.972] [DEBUG] default - Merging 4 objects
+[2025-10-21T15:12:51.975] [TRACE] default - The message is too long (1296), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:12:51.975] [TRACE] default - Merged object: {"rootSelector":"","enableScreenshots":true,"returnAxePassed":false,"includeIframes":true,"toggles":{"ENABLE_SENDING_ENGINE_MATRICES":true,"USE_BROKEN_SKIP_LINK_VALIDATOR":false,"USE_SCREEN_READING_ORDER_VALIDATOR":false,"USE_TAB_ORDER_VALIDATOR":false,"USE_AXE_NEEDS_REVIEW":false,"USE_AXE_BEST_PRACTICES":false,"SAVE_FULL_HTML":false,"USE_FOCUS_INDICATION":false,"USE_TEXT_ON_IMAGE":false,"ENABLE_PENDO_ANALYTICS":false,"USE_LANGUAGE_ATTRIBUTE_MISMATCH_VALIDATOR":false,"ENABLE_SCREENSHOTS":false,"RUN_VALIDATION_ON_IFRAMES":true,"ALLOW_SCREENSHOTS_WHEN_IFRAMES_TOGGLE_IS_ON":true,"SUPPORT_SHADOW_DOM":true,"ENABLE_SCAN_INSIGHTS":false},"recordingService":{"ENABLE_DEBOUNCE_NEW_SELECTORS":false,"DEBOUNCE_NEW_SELECTORS_MS":200,"DELAY_MODE":"debounce"},"analytics":{"obfuscate_urls":false,"analytics_url":"https://ingestion.evinced.com/analytics","disable_scan_initiated_event":false},"issuesContentPerType":null,"axeIssuesContentPerType":null,"logging":{"LOGGING_LEVEL":"trace","ADD_
+[2025-10-21T15:12:51.975] [DEBUG] default - The message is too long (1303), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:12:51.975] [DEBUG] default - Merged configuration: {"rootSelector":"","enableScreenshots":true,"returnAxePassed":false,"includeIframes":true,"toggles":{"ENABLE_SENDING_ENGINE_MATRICES":true,"USE_BROKEN_SKIP_LINK_VALIDATOR":false,"USE_SCREEN_READING_ORDER_VALIDATOR":false,"USE_TAB_ORDER_VALIDATOR":false,"USE_AXE_NEEDS_REVIEW":false,"USE_AXE_BEST_PRACTICES":false,"SAVE_FULL_HTML":false,"USE_FOCUS_INDICATION":false,"USE_TEXT_ON_IMAGE":false,"ENABLE_PENDO_ANALYTICS":false,"USE_LANGUAGE_ATTRIBUTE_MISMATCH_VALIDATOR":false,"ENABLE_SCREENSHOTS":false,"RUN_VALIDATION_ON_IFRAMES":true,"ALLOW_SCREENSHOTS_WHEN_IFRAMES_TOGGLE_IS_ON":true,"SUPPORT_SHADOW_DOM":true,"ENABLE_SCAN_INSIGHTS":false},"recordingService":{"ENABLE_DEBOUNCE_NEW_SELECTORS":false,"DEBOUNCE_NEW_SELECTORS_MS":200,"DELAY_MODE":"debounce"},"analytics":{"obfuscate_urls":false,"analytics_url":"https://ingestion.evinced.com/analytics","disable_scan_initiated_event":false},"issuesContentPerType":null,"axeIssuesContentPerType":null,"logging":{"LOGGING_LEVEL":"trace
+[2025-10-21T15:12:51.975] [DEBUG] default - The message is too long (1014), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:12:51.975] [DEBUG] default - Configuration. Session info: {"userId":"js-playwright-sdk-user","serverConfig":{"TOGGLES":{"ENABLE_SENDING_ENGINE_MATRICES":true,"USE_BROKEN_SKIP_LINK_VALIDATOR":false,"USE_SCREEN_READING_ORDER_VALIDATOR":false,"USE_TAB_ORDER_VALIDATOR":false,"USE_AXE_NEEDS_REVIEW":false,"USE_AXE_BEST_PRACTICES":false,"SAVE_FULL_HTML":false,"USE_FOCUS_INDICATION":false,"USE_TEXT_ON_IMAGE":false,"ENABLE_PENDO_ANALYTICS":false,"USE_LANGUAGE_ATTRIBUTE_MISMATCH_VALIDATOR":false,"ENABLE_SCREENSHOTS":true,"RUN_VALIDATION_ON_IFRAMES":true,"ALLOW_SCREENSHOTS_WHEN_IFRAMES_TOGGLE_IS_ON":true,"SUPPORT_SHADOW_DOM":true,"ENABLE_SCAN_INSIGHTS":false,"ENGINE_ENABLE_AXE_PASSES_OUTPUT":false},"showDuplicateIssues":true,"RECORDING_SERVICE":{"ENABLE_DEBOUNCE_NEW_SELECTORS":false,"DEBOUNCE_NEW_SELECTORS_MS":200,"DELAY_MODE":"debounce"},"LOGGING":{"LOGGING_LEVEL":"trace","ADD_LOGGING_CONTEXT":true},"ANALYTICS_CONFIG":{"obfuscate_urls":false,"analytics_url":"https://ingestion.evinced.com/analytics","disable_scan_initiated_e
+[2025-10-21T15:12:51.975] [INFO] default - Getting license data for engine initialisation
+[2025-10-21T15:12:51.976] [DEBUG] default - Configuration. Analysis config: {"analysisId":"f0169ff2-730b-4d2e-9bb5-dac27c2a7dba","rootSelector":"","licenseData":{"accessToken":"********","tenantId":"18accef9-6075-4ec0-bd6e-14ec182b7fcc"}}
+[2025-10-21T15:12:51.976] [DEBUG] default - Configuration. Analysis persisted data: undefined
+[2025-10-21T15:12:51.976] [DEBUG] default - Configuration. Updates callback: undefined
+[2025-10-21T15:12:51.976] [DEBUG] default - Configuration. Running context: {"hostingProduct":"PLAYWRIGHT-JS-SDK","productName":"WEB_SDK","sdkType":"PLAYWRIGHT_JS_SDK","hostingProductVersion":"2.39.2"}
+[2025-10-21T15:12:51.976] [DEBUG] default - Calling "Init analysis client core" command
+[2025-10-21T15:12:51.976] [DEBUG] default - Adding callback handler to the page
+[2025-10-21T15:12:52.128] [DEBUG] default - Callback handler added to the page
+[2025-10-21T15:12:52.129] [TRACE] default - The message is too long (1323), only the first 1000 characters will be logged. 
+      In order to log such long messages -> update logging configuration.
+[2025-10-21T15:12:52.129] [TRACE] default - Executing command: 'init' with args: [{"userId":"js-playwright-sdk-user","serverConfig":{"TOGGLES":{"ENABLE_SENDING_ENGINE_MATRICES":true,"USE_BROKEN_SKIP_LINK_VALIDATOR":false,"USE_SCREEN_READING_ORDER_VALIDATOR":false,"USE_TAB_ORDER_VALIDATOR":false,"USE_AXE_NEEDS_REVIEW":false,"USE_AXE_BEST_PRACTICES":false,"SAVE_FULL_HTML":false,"USE_FOCUS_INDICATION":false,"USE_TEXT_ON_IMAGE":false,"ENABLE_PENDO_ANALYTICS":false,"USE_LANGUAGE_ATTRIBUTE_MISMATCH_VALIDATOR":false,"ENABLE_SCREENSHOTS":true,"RUN_VALIDATION_ON_IFRAMES":true,"ALLOW_SCREENSHOTS_WHEN_IFRAMES_TOGGLE_IS_ON":true,"SUPPORT_SHADOW_DOM":true,"ENABLE_SCAN_INSIGHTS":false,"ENGINE_ENABLE_AXE_PASSES_OUTPUT":false},"showDuplicateIssues":true,"RECORDING_SERVICE":{"ENABLE_DEBOUNCE_NEW_SELECTORS":false,"DEBOUNCE_NEW_SELECTORS_MS":200,"DELAY_MODE":"debounce"},"LOGGING":{"LOGGING_LEVEL":"trace","ADD_LOGGING_CONTEXT":true},"ANALYTICS_CONFIG":{"obfuscate_urls":false,"analytics_url":"https://ingestion.evinced.com/analytics","disable_scan_in
+[2025-10-21T15:12:52.422] [DEBUG] default - Calling "Run analysis once" command
+[2025-10-21T15:12:52.422] [TRACE] default - Executing command: 'runAnalysisOnce' with args: []
+[2025-10-21T15:13:08.123] [DEBUG] default - Browser console: #1 0ms Starting document clone with size 1265x10564 scrolled to 0,0
+[2025-10-21T15:14:11.297] [ERROR] default - Failed to run analysis: page.evaluate: Test timeout of 90000ms exceeded.
+    at Page._0x47dd16 (/Users/shane/Documents/node-js-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/mock-process.js:1:17307)
+    at exec (/Users/shane/Documents/node-js-playwright-browserstack/node_modules/@evinced/js-playwright-sdk/dist/ev-playwright-sdk.bundle.js:1:4452245)
+    at /Users/shane/Documents/node-js-playwright-browserstack/node_modules/@evinced/js-playwright-sdk/dist/ev-playwright-sdk.bundle.js:1:4400586
+    at /Users/shane/Documents/node-js-playwright-browserstack/node_modules/@evinced/js-playwright-sdk/dist/ev-playwright-sdk.bundle.js:1:4400464
+    at tt.evAnalyze (/Users/shane/Documents/node-js-playwright-browserstack/node_modules/@evinced/js-playwright-sdk/dist/ev-playwright-sdk.bundle.js:1:4400210)
+    at /Users/shane/Documents/node-js-playwright-browserstack/tests/bstack_local_evAnalyze.js:13:20
+[2025-10-21T15:14:11.297] [ERROR] default - Error during evAnalyze: Error: Failed to run analysis: page.evaluate: Test timeout of 90000ms exceeded.

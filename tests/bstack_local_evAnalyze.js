@@ -10,7 +10,10 @@ test.describe("Evinced evAnalyze LOCAL", () => {
     await page.goto(
       "https://www.argos.co.uk/search/grey/?clickOrigin=searchbar:cat:term:grey"
     );
-    const issues = await evincedService.evAnalyze({ uploadToPlatform: true });
+    const issues = await evincedService.evAnalyze({
+      uploadToPlatform: true,
+      enableScreenshots: true,
+    });
     console.log("Issues =", issues);
     await evincedService.evSaveFile(issues, "html", evReport);
     await evincedService.evSaveFile(issues, "json", jsonReport);

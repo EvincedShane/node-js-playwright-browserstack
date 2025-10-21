@@ -97,3 +97,58 @@
 [2025-10-21T12:22:50.599] [INFO] performance - saveReport-2 started at 2025-10-21T11:22:50.599Z
 [2025-10-21T12:22:50.609] [INFO] performance - saveReport-2 ended at 2025-10-21T11:22:50.609Z (duration: 0.01 s)
 [2025-10-21T12:22:50.609] [INFO] performance - evSaveFile-2 ended at 2025-10-21T11:22:50.609Z (duration: 0.01 s)
+[2025-10-21T15:08:39.814] [INFO] performance - constructor-1 started at 2025-10-21T14:08:39.814Z
+[2025-10-21T15:08:39.818] [INFO] performance - getDefaultEvincedConfiguration-1 started at 2025-10-21T14:08:39.818Z
+[2025-10-21T15:08:39.819] [INFO] performance - getDefaultEvincedConfiguration-1 ended at 2025-10-21T14:08:39.819Z (duration: 0.00 s)
+[2025-10-21T15:08:39.819] [INFO] performance - updatePlatformUploadOptions-1 started at 2025-10-21T14:08:39.819Z
+[2025-10-21T15:08:39.819] [INFO] performance - updatePlatformUploadOptions-1 ended at 2025-10-21T14:08:39.819Z (duration: 0.00 s)
+[2025-10-21T15:08:39.819] [INFO] performance - constructor-1 ended at 2025-10-21T14:08:39.819Z (duration: 0.01 s)
+[2025-10-21T15:08:43.450] [INFO] performance - evAnalyze-1 started at 2025-10-21T14:08:43.450Z
+[2025-10-21T15:08:43.450] [INFO] performance - updatePlatformUploadOptions-2 started at 2025-10-21T14:08:43.450Z
+[2025-10-21T15:08:43.450] [INFO] performance - updatePlatformUploadOptions-2 ended at 2025-10-21T14:08:43.450Z (duration: 0.00 s)
+[2025-10-21T15:08:43.477] [INFO] performance - performStaticAnalysis-1 started at 2025-10-21T14:08:43.477Z
+[2025-10-21T15:08:43.477] [INFO] performance - inject-1 started at 2025-10-21T14:08:43.477Z
+[2025-10-21T15:08:54.020] [INFO] performance - inject-1 ended at 2025-10-21T14:08:54.020Z (duration: 10.54 s)
+[2025-10-21T15:08:54.020] [INFO] performance - useDefaultScreenshotCapturingIfEnabled-1 started at 2025-10-21T14:08:54.020Z
+[2025-10-21T15:08:54.021] [INFO] performance - prepareInitParameters-1 started at 2025-10-21T14:08:54.021Z
+[2025-10-21T15:08:54.025] [INFO] performance - prepareInitParameters-1 ended at 2025-10-21T14:08:54.025Z (duration: 0.00 s)
+[2025-10-21T15:08:54.025] [INFO] performance - initAnalysisClientCore-1 started at 2025-10-21T14:08:54.025Z
+[2025-10-21T15:08:54.025] [INFO] performance - addCallbackToThePage-1 started at 2025-10-21T14:08:54.025Z
+[2025-10-21T15:08:55.107] [INFO] performance - addCallbackToThePage-1 ended at 2025-10-21T14:08:55.107Z (duration: 1.08 s)
+[2025-10-21T15:08:55.412] [INFO] performance - initAnalysisClientCore-1 ended at 2025-10-21T14:08:55.412Z (duration: 1.39 s)
+[2025-10-21T15:08:55.413] [INFO] performance - runAnalysisOnce-1 started at 2025-10-21T14:08:55.413Z
+[2025-10-21T15:09:32.782] [INFO] performance - runAnalysisOnce-1 ended at 2025-10-21T14:09:32.782Z (duration: 37.37 s)
+[2025-10-21T15:09:32.782] [INFO] performance - updateScreenshotMap-1 started at 2025-10-21T14:09:32.782Z
+[2025-10-21T15:09:32.782] [INFO] performance - updateScreenshotMap-1 ended at 2025-10-21T14:09:32.782Z (duration: 0.00 s)
+[2025-10-21T15:09:32.782] [INFO] performance - uploadIssuesToPlatform-1 started at 2025-10-21T14:09:32.782Z
+[2025-10-21T15:09:33.457] [INFO] performance - uploadIssuesToPlatform-1 ended at 2025-10-21T14:09:33.457Z (duration: 0.68 s)
+[2025-10-21T15:09:33.457] [INFO] performance - performStaticAnalysis-1 ended at 2025-10-21T14:09:33.457Z (duration: 49.98 s)
+[2025-10-21T15:09:33.457] [INFO] performance - evAnalyze-1 ended at 2025-10-21T14:09:33.457Z (duration: 50.01 s)
+[2025-10-21T15:09:33.465] [INFO] performance - evSaveFile-1 started at 2025-10-21T14:09:33.465Z
+[2025-10-21T15:09:33.465] [INFO] performance - saveReport-1 started at 2025-10-21T14:09:33.465Z
+[2025-10-21T15:09:33.484] [INFO] performance - saveReport-1 ended at 2025-10-21T14:09:33.484Z (duration: 0.02 s)
+[2025-10-21T15:09:33.484] [INFO] performance - evSaveFile-1 ended at 2025-10-21T14:09:33.484Z (duration: 0.02 s)
+[2025-10-21T15:09:33.484] [INFO] performance - evSaveFile-2 started at 2025-10-21T14:09:33.484Z
+[2025-10-21T15:09:33.484] [INFO] performance - saveReport-2 started at 2025-10-21T14:09:33.484Z
+[2025-10-21T15:09:33.493] [INFO] performance - saveReport-2 ended at 2025-10-21T14:09:33.493Z (duration: 0.01 s)
+[2025-10-21T15:09:33.493] [INFO] performance - evSaveFile-2 ended at 2025-10-21T14:09:33.493Z (duration: 0.01 s)
+[2025-10-21T15:12:36.603] [INFO] performance - constructor-1 started at 2025-10-21T14:12:36.603Z
+[2025-10-21T15:12:36.606] [INFO] performance - getDefaultEvincedConfiguration-1 started at 2025-10-21T14:12:36.606Z
+[2025-10-21T15:12:36.607] [INFO] performance - getDefaultEvincedConfiguration-1 ended at 2025-10-21T14:12:36.607Z (duration: 0.00 s)
+[2025-10-21T15:12:36.608] [INFO] performance - updatePlatformUploadOptions-1 started at 2025-10-21T14:12:36.608Z
+[2025-10-21T15:12:36.608] [INFO] performance - updatePlatformUploadOptions-1 ended at 2025-10-21T14:12:36.608Z (duration: 0.00 s)
+[2025-10-21T15:12:36.610] [INFO] performance - constructor-1 ended at 2025-10-21T14:12:36.609Z (duration: 0.01 s)
+[2025-10-21T15:12:40.642] [INFO] performance - evAnalyze-1 started at 2025-10-21T14:12:40.642Z
+[2025-10-21T15:12:40.642] [INFO] performance - updatePlatformUploadOptions-2 started at 2025-10-21T14:12:40.642Z
+[2025-10-21T15:12:40.643] [INFO] performance - updatePlatformUploadOptions-2 ended at 2025-10-21T14:12:40.643Z (duration: 0.00 s)
+[2025-10-21T15:12:40.667] [INFO] performance - performStaticAnalysis-1 started at 2025-10-21T14:12:40.667Z
+[2025-10-21T15:12:40.669] [INFO] performance - inject-1 started at 2025-10-21T14:12:40.669Z
+[2025-10-21T15:12:51.971] [INFO] performance - inject-1 ended at 2025-10-21T14:12:51.971Z (duration: 11.30 s)
+[2025-10-21T15:12:51.971] [INFO] performance - useDefaultScreenshotCapturingIfEnabled-1 started at 2025-10-21T14:12:51.971Z
+[2025-10-21T15:12:51.971] [INFO] performance - prepareInitParameters-1 started at 2025-10-21T14:12:51.971Z
+[2025-10-21T15:12:51.976] [INFO] performance - prepareInitParameters-1 ended at 2025-10-21T14:12:51.976Z (duration: 0.01 s)
+[2025-10-21T15:12:51.976] [INFO] performance - initAnalysisClientCore-1 started at 2025-10-21T14:12:51.976Z
+[2025-10-21T15:12:51.976] [INFO] performance - addCallbackToThePage-1 started at 2025-10-21T14:12:51.976Z
+[2025-10-21T15:12:52.128] [INFO] performance - addCallbackToThePage-1 ended at 2025-10-21T14:12:52.128Z (duration: 0.15 s)
+[2025-10-21T15:12:52.422] [INFO] performance - initAnalysisClientCore-1 ended at 2025-10-21T14:12:52.422Z (duration: 0.45 s)
+[2025-10-21T15:12:52.422] [INFO] performance - runAnalysisOnce-1 started at 2025-10-21T14:12:52.422Z

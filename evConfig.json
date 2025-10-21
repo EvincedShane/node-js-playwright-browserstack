@@ -12,6 +12,7 @@
   },
   "uploadToPlatformOptions": {
     "enableUploadToPlatform": true,
-    "setUploadToPlatformDefault": true
+    "setUploadToPlatformDefault": true,
+    "enableScreenshots": true
   }
 }
